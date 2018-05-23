@@ -1,0 +1,25 @@
+{
+  "name": "tentask",
+  "version": "0.0.1",
+  "description": "Keep track of tasks in your studenthouse",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marc0tjevp/TenTask.git"
+  },
+  "author": "Marco van Poortvliet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marc0tjevp/TenTask/issues"
+  },
+  "homepage": "https://github.com/marc0tjevp/TenTask#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0"
+  }
+}
